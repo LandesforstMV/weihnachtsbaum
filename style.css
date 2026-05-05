@@ -12,7 +12,7 @@ input, select { padding:10px; border-radius:6px; border:1px solid #ccc; }
 .badge { display:inline-block; padding:5px 10px; background:#d62828; color:white; border-radius:20px; font-size:0.8rem; margin-top:10px; }
 .tags { margin-top:10px; display:flex; flex-wrap:wrap; gap:5px; }
 .tag { background:#e7f0e7; color:#2f5d3a; padding:3px 8px; border-radius:12px; font-size:0.8rem; }
-.site-footer { background: transparent; color: #55605f; padding:16px 20px; text-align:center; }
+.site-footer { background: transparent; color: #55605f; padding:16px 20px; text-align:center; border-top: 1px solid #ccc; margin-top: 30px;}
 .footer-links { display:flex; flex-wrap: wrap; justify-content:center; gap:14px; align-items:center; font-size:0.9rem; }
 .footer-links a { color: inherit; text-decoration:none; border-bottom:1px solid transparent; transition: border-color .2s; }
 .footer-links a:hover { border-color: currentColor; }
