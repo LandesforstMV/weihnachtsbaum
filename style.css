@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; margin:0; background:#f4f6f4; color:#1e2d24; }
+.hero { position: relative; text-align: center; color: white; }
+.hero-img { width: 100%; height: auto; display: block; object-fit: cover; }
+.hero-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.filters { display: flex; flex-wrap: wrap; gap:10px; justify-content:center; padding:20px; }
+input, select { padding:10px; border-radius:6px; border:1px solid #ccc; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; padding:20px; max-width:1200px; margin:0 auto; }
+.card { background:white; padding:20px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.08); }
+.card p { margin: 0.6rem 0; line-height: 1.5; }
+.description { margin-top: 1rem; color: #424242; }
+.badge { display:inline-block; padding:5px 10px; background:#d62828; color:white; border-radius:20px; font-size:0.8rem; margin-top:10px; }
+.tags { margin-top:10px; display:flex; flex-wrap:wrap; gap:5px; }
+.tag { background:#e7f0e7; color:#2f5d3a; padding:3px 8px; border-radius:12px; font-size:0.8rem; }
+@media(max-width:600px) { .filters { flex-direction: column; } }
