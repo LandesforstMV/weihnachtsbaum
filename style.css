@@ -23,3 +23,9 @@ input, select { padding:10px; border-radius:6px; border:1px solid #ccc; }
   .logo { max-width: 180px; }
   .footer-links { flex-direction: column; gap: 10px; }
 }
+@media print {
+  .filters { display: none; }
+  .site-footer { display: none; }
+  body { background: white; }
+  .card { box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+}
